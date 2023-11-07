@@ -1,0 +1,21 @@
+	
+name	"@finsweet/3dglobes"
+version	"1.0.0"
+description	"3D interactive globe on a Webflow site without coding."
+main	"fs-globe.js"
+scripts	
+test	'echo "Error: no test specified" && exit 1'
+repository	
+type	"git"
+url	"git+https://github.com/finsweet/3d-globes.git"
+keywords	
+0	"webflow"
+1	"weglot"
+2	"threeJS"
+3	"3d globe"
+author	
+name	"Finsweet"
+url	"https://www.finsweet.com/"
+bugs	
+url	"https://sweetjs.finsweet.com/"
+homepage	"https://www.3dglobes-wf.com/"
