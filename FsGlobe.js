@@ -39,10 +39,10 @@ function FsGlobe() {
     controls.minDistance = 1.2;
     controls.maxDistance = 4;
     controls.autoRotate = false;
-    controls.autoRotateSpeed = 0.2;
+    controls.autoRotateSpeed = 0;
     // //  controls.enableDamping = true;
     //   controls.campingFactor = 0.25;
-    controls.enableZoom = false;
+    controls.enableZoom = true;
     controls.update();
   
     const scene = new THREE.Scene();
