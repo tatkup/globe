@@ -25,7 +25,7 @@ function FsGlobe() {
     r = new THREE.PerspectiveCamera(54, 2, 0.1, 10);
   r.position.z = 2.5;
   const s = new THREE.OrbitControls(r, o);
-  (s.enableDamping = !0), (s.enablePan = !1), (s.minDistance = 1.2), (s.maxDistance = 4), (s.autoRotate = !0), (s.domElement.focus = null), (s.autoRotateSpeed = 0.01), s.target.set(0, 0, 0), r.position.set(2.5, 0, 0), (s.enableZoom = !0), s.minZoom = 1, s.maxZoom = 5, s.update();
+  (s.enableDamping = !0), (s.enablePan = !1), (s.minDistance = 1.2), (s.maxDistance = 4), (s.autoRotate = !0), (s.domElement.focus = null), (s.autoRotateSpeed = 0.01), s.target.set(0, 0, 0), r.position.set(2.5, 0, 0), (s.enableZoom = !0), s.minZoom = 1, s.maxZoom = 25, s.update();
   const d = new THREE.Scene();
   i.setClearColor(0, 0);
   let c,
