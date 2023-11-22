@@ -1,5 +1,5 @@
 // --- ThreeJS Fancy Shit for Globe ---
-let toggleRotate = true;
+let toggleRotate = false;
 
 function FsGlobe() {
   let loadCount = 0;
